@@ -16,7 +16,7 @@ int main() {
     if (frame.empty())
       break;
     cv::imshow("Window1", frame);
-    if (cv::waitKey(33) >= 0)
+    if (cv::waitKey(33) >= 0) // 这个数字控制了视频的播放速度
       break;
   }
 }

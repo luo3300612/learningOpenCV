@@ -17,7 +17,7 @@ int main() {
             << (unsigned int)red << ")" << std::endl;
 }
 
-// 什么是uchar
-// 什么是cv::Vec3b
+// 什么是uchar unsigned char
+// 什么是cv::Vec3b vector unchar
 // 不转成unsigned int 是什么
 // at那是什么奇怪的语法
