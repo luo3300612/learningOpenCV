@@ -14,10 +14,10 @@ Ex2_9pixelGetAndSet.o : Ex2_9pixelGetAndSet.cpp
 	g++ -o main Ex2_9pixelGetAndSet.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
 Ex2_11VidoeWrite.o : Ex2_11VidoeWrite.cpp
 	g++ -o main Ex2_11VidoeWrite.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
-2_34.o : 2_34.cpp
-	g++ -o main 2_34.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
-2_5.o : 2_5.cpp
-	g++ -o main 2_5.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
+Exercise2_34.o : Exercise2_34.cpp
+	g++ -o main Exercise2_34.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
+Exercise2_5.o : Exercise2_5.cpp
+	g++ -o main Exercise2_5.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
 Ex2_4Simple.o : Ex2_4Simple.cpp
 	g++ -o main Ex2_4Simple.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
 Ex2_8bgr2gray.o : Ex2_8bgr2gray.cpp
