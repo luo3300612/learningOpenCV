@@ -22,6 +22,7 @@ int main() {
   int width = cap.get(cv::CAP_PROP_FRAME_WIDTH);
   int height = cap.get(cv::CAP_PROP_FRAME_HEIGHT);
 
+
   for (;;) {
     cap >> frame;
 
