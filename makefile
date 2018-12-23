@@ -22,6 +22,8 @@ Ex2_4Simple.o : Ex2_4Simple.cpp
 	g++ -o main Ex2_4Simple.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
 Ex2_8bgr2gray.o : Ex2_8bgr2gray.cpp
 	g++ -o main Ex2_8bgr2gray.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs	-lopencv_imgproc
+Ex2_11Simple.o : Ex2_11Simple.cpp
+	g++ -o main Ex2_11Simple.cpp -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_video -lopencv_videostab -lopencv_imgproc
 clean:
 	rm -f main
 	
