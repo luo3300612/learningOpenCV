@@ -10,7 +10,5 @@ int main(){
   cout << vec << endl;
   cout << mat * vec << endl;
   cout << (cv::Matx<int,3,1>)vec << endl; // type-casting
-  cv::Mat mat2(4,4,0);
-  cv::Mat::Mat<int,1,3> mat3;
   return 0;
 }
