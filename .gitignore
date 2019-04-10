@@ -5,3 +5,4 @@ main
 *.avi
 other/*
 !other/opencv_dnn.cpp
+imgs/*
